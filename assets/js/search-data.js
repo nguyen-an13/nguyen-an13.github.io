@@ -384,11 +384,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-fsnet-has-been-accepted-to-neuips-2025-in-san-diego",
-          title: 'Our paper, FSNet, has been accepted to NeuIPS 2025 in San Diego.',
+            },},{id: "news-our-paper-loco-has-been-accepted-to-ijcai-2026-in-bremen-germany",
+          title: 'Our paper, LoCO, has been accepted to IJCAI 2026 in Bremen, Germany.',
           description: "",
-          section: "News",},{id: "news-fsnet-has-been-featured-on-mit-news",
-          title: 'FSNet has been featured on MIT News.',
+          section: "News",},{id: "news-our-paper-on-parameterization-via-structured-sparse-matrices-was-accepted-as-an-oral-presentation-at-icml-workshop-continual-adaptation-at-scale-cats-july-2026-seoul-south-korea",
+          title: 'Our paper on parameterization via structured sparse matrices was accepted as an oral...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
