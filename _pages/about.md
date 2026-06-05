@@ -39,9 +39,26 @@ I’m a second-year master's student at Department of Artificial Intelligence, C
 
 My research primarily focuses on deep learning architectures, large foundation models, and parameter-efficient fine-tuning (PEFT). Driven by strong research curiosity, I am highly motivated to expand my scope into new domains and delve into fundamental questions in machine learning.
 
-[Email](mailto:nguyenan@korea.ac.kr) / [Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [Github](https://github.com/nguyen-an13) 
+
+
+<!-- [Email](mailto:nguyenan@korea.ac.kr)  -->
+<button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;"> <i class="fa-solid fa-envelope"> </i>  Email</button> / [<i class="ai ai-google-scholar"></i> Google Scholar X](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [<i class="fa-brands fa-github"></i>  Github](https://github.com/nguyen-an13) / [📄 CV]({{ 'assets/pdf/CV_homepage.pdf' | relative_url }}).
+
+<!-- new tab 📧  🎓 <i class="fa-solid fa-file-pdf"></i> -->
+ <!-- <a href="{{ 'assets/pdf/CV_homepage.pdf' | relative_url }}" target="_blank">📄 CV</a> -->
+
 <!-- / [LinkedIn](https://www.linkedin.com/in/nguy%E1%BB%85n-v%C4%83n-an-16b6b6130/) -->
 
+<div style="clear: both; margin-top: 40px;"></div>
 
+## Seeking PhD Positions
+<!-- {: style="clear: both; padding-top: 30px;"} -->
+I am actively seeking **PhD positions** in **Computer Science / Artificial Intelligence** starting in **Fall 2027** (or Spring 2027).
+
+If you are aware of any upcoming opportunities, or see a potential research internship/collaboration, I would formally appreciate your guideline if you could share them with me or connect via <button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">email</button> (click to copy).
+
+<!-- My primary research interests center around **Parameter-Efficient Fine-Tuning (PEFT)**, **structured matrix reparameterization**, and **optimization dynamics of large foundation models**. I am highly motivated to work on making deep learning architectures more scalable and hardware-efficient. -->
+
+<!-- If you have open positions in your lab or see a potential research alignment, please feel free to reach out via [email](mailto:nguyenan@korea.ac.kr) or check my [CV](/assets/pdf/your_cv_file.pdf). -->
 
 
