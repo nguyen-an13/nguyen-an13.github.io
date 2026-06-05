@@ -390,7 +390,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-on-parameterization-via-structured-sparse-matrices-was-accepted-as-an-oral-presentation-at-icml-workshop-continual-adaptation-at-scale-cats-july-2026-seoul-south-korea",
           title: 'Our paper on parameterization via structured sparse matrices was accepted as an oral...',
           description: "",
-          section: "News",},{id: "news-our-personal-application-project-quick-oxford-lookup-has-been-successfully-published-on-edge-browser-another-version-for-chrome-browse-will-be-released-soon-hope-you-find-it-useful",
+          section: "News",},{id: "news-our-personal-application-project-quick-oxford-lookup-has-been-successfully-published-on-edge-browser-another-version-for-chrome-browser-will-be-released-soon-hope-you-find-it-useful",
           title: 'Our personal application project, Quick Oxford Lookup, has been successfully published on Edge...',
           description: "",
           section: "News",},{id: "projects-project-1",
