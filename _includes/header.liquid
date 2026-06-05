@@ -21,10 +21,13 @@
           {% endif %}
         </a>
 
+      {% comment %}
       {% if page.permalink == '/' and site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+      {% endcomment %}
+      
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
