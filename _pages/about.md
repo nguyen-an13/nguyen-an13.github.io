@@ -9,7 +9,7 @@ subtitle: <i>Master's Student</i>
 
 profile:
   align: right
-  image: an13.jpeg
+  image: an14.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Korea University, S. Korea </p>
@@ -39,7 +39,7 @@ I’m a second-year master's student at Department of Artificial Intelligence, C
 
 My research primarily focuses on deep learning architectures, large foundation models, and parameter-efficient fine-tuning (PEFT). Driven by strong research curiosity, I am highly motivated to expand my scope into new domains and delve into fundamental questions in machine learning.
 
-[Email](mailto:nguyenan@korea.ac.kr) / [Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ) / [Github](https://github.com/nguyen-an13) 
+[Email](mailto:nguyenan@korea.ac.kr) / [Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [Github](https://github.com/nguyen-an13) 
 <!-- / [LinkedIn](https://www.linkedin.com/in/nguy%E1%BB%85n-v%C4%83n-an-16b6b6130/) -->
 
 

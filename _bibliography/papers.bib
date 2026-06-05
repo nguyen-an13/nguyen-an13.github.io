@@ -16,8 +16,18 @@
   abbr = {ICML workshop},
   title={Sparse Structured Matrices: Efficient Adapter Rank in Fine-Tuning Foundation Models},
   author={An Nguyen and Anh Tong},
-  booktitle={ICML Workshop: Continual Adaptation at Scale (CATS) (Oral)},
+  booktitle={ICML Workshop: Continual Adaptation at Scale (CATS), <span class="badge" style="background-color: #94e397; color: white !important; font-style: normal; font-size: 0.85em; padding: 4px 10px;">Oral Presentation</span>},
   year={2026},
   abstract={Parameter-efficient fine-tuning (PEFT) has become a standard tool for adapting large models, yet most existing adapters are designed around fixed rank regimes. We present Scalable Morpho Adaptation (SaMA), a structured PEFT method that enables unified omni-rank adaptation within a single parameterization and mitigates Gauge symmetry in parameter space. Theoretically, we show that SaMA is more expressive than LoRA with respect to adapter parameter budget. Empirically, our method yields better performance than LoRA and other PEFT baselines on reasoning tasks.},
+  selected={true}
+}
+
+@inproceedings{nguyen2026sama,
+  abbr = {NeurIPS submission},
+  title={SaMA: Morpho Adaptation via Asymmetric Expansion of Kronecker Product},
+  author={An Nguyen and Anh Tong},
+  booktitle={Conference on Neural Information Processing Systems (NeurIPS), <span class="badge" style="background-color: #dfabab; color: white !important; font-style: normal; font-size: 0.85em; padding: 4px 10px;">Under Review</span>},
+  year={2026},
+  abstract={Low-rank adaptation (LoRA) has attracted significant attention in the parameter-efficient fine-tuning (PEFT) landscape. However, its design suffers from two fundamental limitations. First, its invariance manifold induces flat directions in the loss landscape, creating an optimization bottleneck for adaptive optimizers. Second, its effective rank scales only linearly with the parameter budget. In this paper, we propose Scalable Morpho Adaptation (SaMA), a PEFT method grounded in a principled generalization of the Kronecker product. By relaxing the shared-block constraint in the perfect-shuffle factorization, SaMA spans from low to full rank and achieves effective rank that scales \quadratically in parameters. Furthermore, we show that its invariance manifold collapses to a diagonal group, making it structurally more optimizer-friendly. Empirically, SaMA consistently outperforms strong PEFT baselines on commonsense and arithmetic reasoning benchmarks while being more parameter-efficient.},
   selected={true}
 }
