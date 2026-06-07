@@ -42,7 +42,7 @@ My research primarily focuses on deep learning architectures, large foundation m
 
 
 <!-- [Email](mailto:nguyenan@korea.ac.kr)  -->
-<button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;"> <i class="fa-solid fa-envelope"> </i>  Email</button> / [<i class="ai ai-google-scholar"></i> Google Scholar X](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [<i class="fa-brands fa-github"></i>  Github](https://github.com/nguyen-an13) / [📄 CV]({{ 'assets/pdf/CV_homepage.pdf' | relative_url }}).
+<button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;"> <i class="fa-solid fa-envelope"> </i>  Email</button> / [<i class="ai ai-google-scholar"></i> Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [<i class="fa-brands fa-github"></i>  Github](https://github.com/nguyen-an13) / [📄 CV]({{ 'assets/pdf/CV_homepage.pdf' | relative_url }})
 
 <!-- new tab 📧  🎓 <i class="fa-solid fa-file-pdf"></i> -->
  <!-- <a href="{{ 'assets/pdf/CV_homepage.pdf' | relative_url }}" target="_blank">📄 CV</a> -->
