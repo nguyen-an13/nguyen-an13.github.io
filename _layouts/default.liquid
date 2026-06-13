@@ -52,5 +52,23 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+
+    <script>
+      // 1. Nếu bạn chủ động vào trang stats, đóng dấu bạn là Chủ nhà
+      if (window.location.pathname.includes('my-secret-stats')) {
+        localStorage.setItem('site_owner', 'true');
+      }
+
+      // 2. Nếu là Chủ nhà đang F5 hoặc xem trang stats, đóng băng không cho gửi lệnh đếm lên server twb.nz
+      if (localStorage.getItem('site_owner') === 'true' && window.location.pathname.includes('my-secret-stats')) {
+        window.stop(); // Dừng lệnh tải trang ngầm để ngắt bộ đếm tự động của badge
+        
+        // Tạo một vùng hiển thị ảnh tĩnh an toàn để bạn vẫn nhìn thấy con số thực tế mà không bị tăng ảo
+        document.body.innerHTML = document.body.innerHTML.replace(
+          'src="https://twb.nz/api/v1/badge?url=https://nguyen-an13.github.io&amp;title=Views&amp;color=blue"',
+          'src="https://twb.nz/api/v1/badge?url=https://nguyen-an13.github.io&title=Views&color=blue&admin=true"'
+        );
+      }
+    </script>
   </body>
 </html>
