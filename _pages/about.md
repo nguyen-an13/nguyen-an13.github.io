@@ -55,10 +55,10 @@ My research primarily focuses on deep learning architectures, large foundation m
 <!-- {: style="clear: both; padding-top: 30px;"} -->
 I am actively seeking **PhD positions** in **Computer Science / Artificial Intelligence** starting in **Fall 2027** (or Spring 2027).
 
-If you are aware of any upcoming opportunities, or see a potential research internship/collaboration, I would formally appreciate your guideline if you could share them with me or connect via <button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">email</button> (click to copy).
+If you are aware of any upcoming opportunities, or see a potential research internship/collaboration, I would greatly appreciate your guidance if you could share them with me or connect via <button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">email</button> (click to copy).
 
 <!-- My primary research interests center around **Parameter-Efficient Fine-Tuning (PEFT)**, **structured matrix reparameterization**, and **optimization dynamics of large foundation models**. I am highly motivated to work on making deep learning architectures more scalable and hardware-efficient. -->
 
-<!-- If you have open positions in your lab or see a potential research alignment, please feel free to reach out via [email](mailto:nguyenan@korea.ac.kr) or check my [CV](/assets/pdf/your_cv_file.pdf). -->
+<!-- If you have open positions in your lab or see a potential research alignment, please feel free to reach out via [email](mailto:nguyenan@korea.ac.kr) or check my [CV](/assets/pdf/your_cv_file.pdf). ---> 
 
 
