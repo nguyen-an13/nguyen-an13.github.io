@@ -396,7 +396,7 @@ ninja.data = [{
           section: "News",},{id: "news-really-excited-to-announce-that-i-have-been-awarded-both-the-ijcai-2026-travel-grant-and-a-student-volunteer-slot-huge-thanks-to-the-organizing-committee-for-the-support-see-you-all-in-bremen-germany-in-august-2026",
           title: '🚀 Really excited to announce that I have been awarded both the IJCAI...',
           description: "",
-          section: "News",},{id: "news-our-patent-application-has-been-officially-filed-title-method-and-apparatus-for-weight-parameterization-of-neural-network-using-sparse-structured-matrix-decomposition-south-korea-patent-no-10-2026-0160393-many-thanks-to-korea-university-research-and-business-foundation-and-wesol-ip-lawfirm-for-the-support",
+          section: "News",},{id: "news-our-patent-application-has-been-officially-filed-title-method-and-apparatus-for-weight-parameterization-of-neural-network-using-sparse-structured-matrix-decomposition-south-korea-patent-no-10-2026-0160393-many-thanks-to-korea-university-research-amp-amp-business-foundation-and-wesol-ip-lawfirm-for-the-support",
           title: '📑 Our patent application has been officially filed. Title: Method and Apparatus for...',
           description: "",
           section: "News",},{id: "projects-project-1",
