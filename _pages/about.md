@@ -21,7 +21,8 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  # limit: 5 # leave blank/commented to include all the news in the `_news` folder
+  max_height: 400px # 40vw #300px # fixed box height (px/em/vh...); scrolls once content is taller than this
 
 # latest_posts:
 #   enabled: true
