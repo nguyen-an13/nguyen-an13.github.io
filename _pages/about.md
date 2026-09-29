@@ -13,7 +13,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Korea University, S. Korea </p>
-    <p>Email: nguyenan@korea.ac.kr </p>
+    <p style="font-size: 0.85em;">Email: nguyenan [at] korea [dot] ac [dot] kr</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -42,8 +42,14 @@ My research primarily focuses on deep learning architectures, large foundation m
 
 
 
-<!-- [Email](mailto:nguyenan@korea.ac.kr)  -->
-<button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer;"> <i class="fa-solid fa-envelope"> </i>  Email</button> / [<i class="ai ai-google-scholar"></i> Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [<i class="fa-brands fa-github"></i>  Github](https://github.com/nguyen-an13) / [📄 CV (June 2026)]({{ 'assets/pdf/CV_Jun26.pdf' | relative_url }})
+<script>
+function copyEmailFromData(btn) {
+  const email = atob(btn.dataset.u) + '@' + atob(btn.dataset.d);
+  navigator.clipboard.writeText(email);
+  alert('Copied email to clipboard!');
+}
+</script>
+<button data-u="bmd1eWVuYW4=" data-d="a29yZWEuYWMua3I=" onclick="copyEmailFromData(this)" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer;"> <i class="fa-solid fa-envelope"> </i>  Email</button> / [<i class="ai ai-google-scholar"></i> Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [<i class="fa-brands fa-github"></i>  Github](https://github.com/nguyen-an13) / [📄 CV (June 2026)]({{ 'assets/pdf/CV_Jun26.pdf' | relative_url }})
 
 <!-- new tab 📧  🎓 <i class="fa-solid fa-file-pdf"></i> -->
  <!-- <a href="{{ 'assets/pdf/CV_homepage.pdf' | relative_url }}" target="_blank">📄 CV</a> -->
@@ -56,10 +62,10 @@ My research primarily focuses on deep learning architectures, large foundation m
 <!-- {: style="clear: both; padding-top: 30px;"} -->
 I am actively seeking **PhD positions** in **Computer Science / Artificial Intelligence** starting in **Fall 2027** (or Spring 2027).
 
-If you are aware of any upcoming opportunities, or see a potential research internship/collaboration, I would greatly appreciate your guidance if you could share them with me or connect via <button onclick="navigator.clipboard.writeText('nguyenan@korea.ac.kr'); alert('Copied email to clipboard!');" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">email</button> (click to copy).
+If you are aware of any upcoming opportunities, or see a potential research internship/collaboration, I would greatly appreciate your guidance if you could share them with me or connect via <button data-u="bmd1eWVuYW4=" data-d="a29yZWEuYWMua3I=" onclick="copyEmailFromData(this)" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">email</button> (*click to copy*).
 
 <!-- My primary research interests center around **Parameter-Efficient Fine-Tuning (PEFT)**, **structured matrix reparameterization**, and **optimization dynamics of large foundation models**. I am highly motivated to work on making deep learning architectures more scalable and hardware-efficient. -->
 
-<!-- If you have open positions in your lab or see a potential research alignment, please feel free to reach out via [email](mailto:nguyenan@korea.ac.kr) or check my [CV](/assets/pdf/your_cv_file.pdf). ---> 
+<!-- If you have open positions in your lab or see a potential research alignment, please feel free to reach out via email or check my [CV](/assets/pdf/your_cv_file.pdf). ---> 
 
 

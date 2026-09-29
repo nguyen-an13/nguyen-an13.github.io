@@ -11,6 +11,14 @@ profile: false
   (Name in Vietnamese: Nguyễn Văn An)
 </span>
 
+<script>
+function copyEmailFromData(btn) {
+  const email = atob(btn.dataset.u) + '@' + atob(btn.dataset.d);
+  navigator.clipboard.writeText(email);
+  alert('Copied email to clipboard!');
+}
+</script>
+
 <!-- ==========================================
      KHỐI PROFILE TRUNG TÂM (ẢNH TO + THÔNG TIN BÊN PHẢI)
      ========================================== -->
@@ -29,7 +37,7 @@ profile: false
     <span style="color: #666;">Department of Artificial Intelligence</span><br>
     <span style="color: #666;">Seoul, South Korea</span><br>
     <span style="display: block; margin-top: 8px;">
-      <strong>Email:</strong> <a href="mailto:nguyenan@korea.ac.kr" style="color: #2a7ae2; text-decoration: none;">nguyenan@korea.ac.kr</a>
+      <strong>Email:</strong> <button data-u="bmd1eWVuYW4=" data-d="a29yZWEuYWMua3I=" onclick="copyEmailFromData(this)" style="background: none; border: none; color: #2a7ae2; text-decoration: underline; padding: 0; font: inherit; cursor: pointer;">click to copy</button>
     </span>
   </div>
 
@@ -49,7 +57,7 @@ My research interests lie at the intersection of deep learning and large foundat
 
 <!-- Dòng liên kết mạng xã hội tinh gọn ở dưới cùng khối văn bản -->
 <div style="text-align: center; margin-top: 30px; font-size: 1rem;">
-  <a href="mailto:nguyenan@korea.ac.kr" style="color: #2a7ae2; text-decoration: none; margin: 0 10px;">[Email]</a> | 
+  <button data-u="bmd1eWVuYW4=" data-d="a29yZWEuYWMua3I=" onclick="copyEmailFromData(this)" style="background: none; border: none; color: #2a7ae2; text-decoration: none; margin: 0 10px; font: inherit; cursor: pointer;">[Email]</button> | 
   <a href="https://scholar.google.com/citations?user=ZpWuKd4AAAAJ" target="_blank" style="color: #2a7ae2; text-decoration: none; margin: 0 10px;">[Google Scholar]</a> | 
   <a href="https://github.com/nguyenan13" target="_blank" style="color: #2a7ae2; text-decoration: none; margin: 0 10px;">[GitHub]</a>
 </div>
