@@ -5,7 +5,8 @@ nav_title: Misc
 permalink: /misc/
 nav: true
 nav_order: 3
-description: Various other activities and sharing — something that makes us human
+description: Various other activities and sharing 
+# A few things that make me, well, human
 ---
 
 <div style="padding-left: 15px; border-left: 3px solid var(--global-theme-color);">
@@ -15,7 +16,7 @@ description: Various other activities and sharing — something that makes us hu
 <hr style="border: none; border-top: 1px solid rgba(128, 128, 128, 0.15); margin: 25px 0;">
 
 <div style="padding-left: 15px; border-left: 3px solid var(--global-theme-color);">
-  When I'm not thinking about research, you'll usually find me outdoors: hiking, long walks along a promenade, cycling, etc or just sitting by a river watching the water go by. <br> Other times, I slow down with a good book, a painting, a piece of classical music.
+  When I'm not thinking about research, you might find me outdoors: hiking, long walks along a promenade, cycling, etc or just sitting by a river watching the water go by. <br> Other times, I slow down with a good book, a painting, a piece of classical music.
 </div>
 
 <!-- <hr style="border: none; border-top: 1px solid rgba(128, 128, 128, 0.15); margin: 25px 0;">
