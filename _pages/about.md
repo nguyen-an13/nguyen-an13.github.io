@@ -36,9 +36,9 @@ announcements:
 <!-- (Name in Vietnamese: Nguyễn Văn An) -->
 <!-- ; Sino-Vietnamese characters: 阮文安) -->
 
-I’m a second-year master's student at Department of Artificial Intelligence, College of Informatics, Korea University, where I’m fortunate to work under the tutelage of [Prof. Anh Tong](https://anh-tong.github.io/) at [SDML lab](https://sdml-ku.github.io/). Before coming to Korea University and joining SDML lab, I earned my B.Eng. in Control Engineering and Automation from Hanoi University of Science and Technology in Vietnam.
+I’m a second-year master's student at Department of Artificial Intelligence, College of Informatics, Korea University, where I’m fortunate to work under the supervision of [Prof. Anh Tong](https://anh-tong.github.io/) at [SDML lab](https://sdml-ku.github.io/). Before coming to Korea University and joining SDML lab, I earned my B.Eng. in Control Engineering and Automation from Hanoi University of Science and Technology in Vietnam.
 
-My research primarily focuses on deep learning architectures, large foundation models, and parameter-efficient fine-tuning (PEFT). Driven by strong research curiosity, I am highly motivated to expand my scope into new domains and delve into fundamental questions in machine learning.
+My research primarily focuses on deep learning architectures, large foundation models, and parameter-efficient fine-tuning (PEFT). Driven by strong research curiosity, I am highly motivated to expand my scope into new domains and delve into fundamental questions in machine learning. More recently, I've also been exploring efficient models, decoding strategies and test-time scaling for LLMs.
 
 <!-- More recently, I've also been exploring efficient inference for LLMs — decoding strategies, and test-time scaling — as well as trustworthy AI (including XAI and safety). -->
 
