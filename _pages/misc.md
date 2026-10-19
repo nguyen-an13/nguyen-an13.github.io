@@ -5,7 +5,7 @@ nav_title: Misc
 permalink: /misc/
 nav: true
 nav_order: 3
-description: Various other activities and sharing
+description: Various other activities and sharing — something that makes us human
 ---
 
 <div style="padding-left: 15px; border-left: 3px solid var(--global-theme-color);">
@@ -34,10 +34,10 @@ description: Various other activities and sharing
 
 <div class="row" style="margin-left: -4%; margin-right: -4%;">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/1River.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/3Forest.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
