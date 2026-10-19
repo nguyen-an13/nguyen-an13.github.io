@@ -55,6 +55,16 @@ function copyEmailFromData(btn) {
 
 <button data-u="bnZhbi50YjIxODA=" data-d="Z21haWwuY29t" onclick="copyEmailFromData(this)" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer;"> <i class="fa-brands fa-google"> </i>  Gmail</button>
 
+<div style="margin: 45px 0 20px 0; padding-left: 15px; border-left: 3px solid var(--global-theme-color); font-style: italic; font-size: 0.9em; opacity: 0.85;">
+  “Imagination and good questions — where do they lead you today?”<br>
+  <span style="font-style: normal; opacity: 0.7;">— a riff on Einstein &amp; I.I. Rabi</span>
+</div>
+
+<div style="margin: 20px 0 45px 0; padding-left: 15px; border-left: 3px solid var(--global-theme-color); font-style: italic; font-size: 0.9em; opacity: 0.85;">
+  “The fairest thing we can experience is the mysterious.”<br>
+  <span style="font-style: normal; opacity: 0.7;">— Albert Einstein</span>
+</div>
+
 <!-- new tab 📧  🎓 <i class="fa-solid fa-file-pdf"></i> -->
  <!-- <a href="{{ 'assets/pdf/CV_homepage.pdf' | relative_url }}" target="_blank">📄 CV</a> -->
 
