@@ -47,8 +47,15 @@ My research primarily focuses on deep learning architectures, large foundation m
 <script>
 function copyEmailFromData(btn) {
   const email = atob(btn.dataset.u) + '@' + atob(btn.dataset.d);
-  navigator.clipboard.writeText(email);
-  alert('Copied email to clipboard!');
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(email).then(() => {
+      alert('Copied email to clipboard!');
+    }).catch(() => {
+      prompt('Copy this email:', email);
+    });
+  } else {
+    prompt('Copy this email:', email);
+  }
 }
 </script>
 <button data-u="bmd1eWVuYW4=" data-d="a29yZWEuYWMua3I=" onclick="copyEmailFromData(this)" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer;"> <i class="fa-solid fa-envelope"> </i>  Email</button> / [<i class="ai ai-google-scholar"></i> Google Scholar](https://scholar.google.com/citations?user=ZpWuKd4AAAAJ&hl=en) / [<i class="fa-brands fa-github"></i>  Github](https://github.com/nguyen-an13) / [📄 CV (Sep 2026)]({{ 'assets/pdf/CV_Sep26_.pdf' | relative_url }})
