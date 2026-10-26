@@ -16,13 +16,15 @@ layout: default
 
   <article>
     <style>
-      .profile {
-        width: 290px !important;
-        max-width: 100% !important;
-      }
-      .profile img {
-        width: 100% !important;
-        max-width: 100% !important;
+      @media (min-width: 576px) {
+        .profile {
+          width: 290px !important;
+          max-width: 100% !important;
+        }
+        .profile img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
       }
     </style>
     {% if page.profile %}
