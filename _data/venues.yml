@@ -19,3 +19,7 @@
 "NeurIPS":
   url: https://neurips.cc/
   color: "#9f1239"
+
+"S. Korea Patent":
+  color: "#e5e7eb"
+  text_color: "#111827"

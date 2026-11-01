@@ -5,14 +5,15 @@
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-          {%- endif -%}
+          {% capture venue_style %}
+            {%- if site.data.venues[entry.abbr].color != blank -%}background-color:{{ site.data.venues[entry.abbr].color }};{%- endif -%}
+            {%- if site.data.venues[entry.abbr].text_color != blank -%}color:{{ site.data.venues[entry.abbr].text_color }} !important;{%- endif -%}
+          {% endcapture %}
+          {% assign venue_style = venue_style | strip %}
           <abbr
             class="badge rounded w-100"
-            {% if venue_style %}
-              {{ venue_style }}
+            {% if venue_style != "" %}
+              style="{{ venue_style }}"
             {% endif -%}
           >
             {% if site.data.venues[entry.abbr].url %}
