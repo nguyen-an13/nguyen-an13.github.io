@@ -79,11 +79,13 @@ function copyEmailFromData(btn) {
 
 <div style="clear: both; margin-top: 40px;"></div>
 
+<!--
 ## Seeking PhD Positions
-<!-- {: style="clear: both; padding-top: 30px;"} -->
+{: style="clear: both; padding-top: 30px;"}
 I am actively seeking **PhD positions** in **Computer Science / Artificial Intelligence** starting in **Fall 2027** (or Spring 2027).
 
 If you are aware of any upcoming opportunities, or see a potential research internship/collaboration, I would greatly appreciate your guidance if you could share them with me or connect via <button data-u="bmd1eWVuYW4=" data-d="a29yZWEuYWMua3I=" onclick="copyEmailFromData(this)" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">email</button> or <button data-u="bnZhbi50YjIxODA=" data-d="Z21haWwuY29t" onclick="copyEmailFromData(this)" style="background: none; border: none; color: var(--global-theme-color); padding: 0; font: inherit; cursor: pointer; text-decoration: underline;">Gmail</button> (*click to copy*).
+-->
 
 <!-- My primary research interests center around **Parameter-Efficient Fine-Tuning (PEFT)**, **structured matrix reparameterization**, and **optimization dynamics of large foundation models**. I am highly motivated to work on making deep learning architectures more scalable and hardware-efficient. -->
 
